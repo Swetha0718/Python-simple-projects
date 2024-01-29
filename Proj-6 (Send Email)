@@ -1,0 +1,17 @@
+from email.message import EmailMessage
+import ssl
+import smtplib
+email_send="swethasruthi001@gmail.com"
+email_pwd="jkab etzu cldf clnl"
+email_rec="amuthadevisasi@gmail.com"
+subj=""" Normal msg """
+body=""" Welcome to python pgm """
+em=EmailMessage()
+em['From']=email_send
+em['To']=email_rec
+em['subject']=subj
+em.set_content(body)
+context=ssl.create_default_context()
+with smtplib.SMTP_SSL("smtp.gmail.com",465,context=context) as smtp:
+    smtp.login(email_send,email_pwd)
+    smtp.sendmail(email_send,email_rec,em.as_string())

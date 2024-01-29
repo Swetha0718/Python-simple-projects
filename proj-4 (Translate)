@@ -1,0 +1,6 @@
+from googletrans import Translator
+t=Translator()
+text=input("Enter any text: ")
+trans=t.translate(text,dest="ta")
+print(trans.text)
+

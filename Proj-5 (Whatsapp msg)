@@ -1,0 +1,8 @@
+import pyautogui as ps
+import webbrowser as wb
+import time
+wb.open("https://web.whatsapp.com/")
+time.sleep(30)
+for i in range(3):
+    ps.typewrite("This message was deleted")
+    ps.press("enter")

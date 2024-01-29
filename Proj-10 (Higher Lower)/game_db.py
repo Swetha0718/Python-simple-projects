@@ -1,0 +1,22 @@
+data=[
+    {'name':"Uma",
+     'followers':"908",
+     'description':"Youtuber",
+     'country':"USA"},
+    {'name':"Anu",
+     'followers':"1000",
+     'description':"Lawyer",
+     'country':"India"},
+    {'name':"Latha",
+     'followers':"800",
+     'description':"Journalist",
+     'country':"USA"},
+    {'name':"Ramesh",
+     'followers':"2000",
+     'description':"Business man",
+     'country':"India"},
+    {'name':"Kamesh",
+     'followers':"340",
+     'description':"Teacher",
+     'country':"USA"}
+]
